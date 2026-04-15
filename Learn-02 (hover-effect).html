@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effect</title>
+    <style>
+        .large-box{
+            display: flex;
+        }
+        .small-box{
+            flex: 1;
+            height: 200px;
+            transition: all 0.3s ease;
+        }
+        .small-box:hover{
+            flex: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="large-box">
+        <div class="small-box" style="background-color: hsl(100, 20%, 10%);"></div>
+        <div class="small-box" style="background-color:hsl(100, 20%, 20%);"></div>
+        <div class="small-box" style="background-color:hsl(100, 20%, 30%);"></div>
+        <div class="small-box" style="background-color:hsl(100, 20%, 50%);"></div>
+        <div class="small-box" style="background-color:hsl(100, 20%, 60%);"></div>
+    </div>
+</body>
+</html>
